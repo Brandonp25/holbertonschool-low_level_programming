@@ -1,21 +1,24 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- *main prints Holberton and then new line
+ * main - entry point
  *
- *Return: 0
+ * Description: Prints Holberton with _putchar
+ *
+ * Return: always 0
  */
 
 int main(void)
 {
-	int i;
-	char string[9] = "Holberton";
+	int i = 0;
+	char c;
+	char s[] = "Holberton\n";
 
-	for (i = 0; i < 9; i++)
+	while (i <= 9)
 	{
-		_putchar(string[i]);
+		c = s[i];
+		_putchar(c);
+		i++;
 	}
-	_putchar('\n');
 	return (0);
 }
