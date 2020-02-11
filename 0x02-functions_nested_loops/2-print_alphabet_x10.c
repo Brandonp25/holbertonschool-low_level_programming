@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- *print_alphabet_x10 _ prints the alphabet from a to z 10 times
+ *print_alphabet_x10 - prints the alphabet from a to z
  *
  *Return: 0;
  */
